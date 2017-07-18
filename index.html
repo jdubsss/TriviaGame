@@ -10,7 +10,7 @@
 	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
     <link rel="stylesheet" href="Assets/css/style.css">
     <style type="text/css">
- /*     @font-face {
+/*      @font-face {
       font-family: 'JeanLucWeb-Bold';
         src: url('jeanlucweb-bold.eot');
         src: local('☺'), url("jeanlucweb-bold.woff") format("woff"), url("jeanlucweb-bold.otf") format("opentype"), url("jeanlucweb-bold#webfontup15foyj") format("svg");
@@ -29,156 +29,36 @@
 
 
 </head>
-<body class="">
+<body>
 
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper">
         <a href="landing.html" class="brand-logo">Trivia Game - JavaScript</a>
         <ul class="right hide-on-med-and-down">
-          <li id="timer"></li>
+          <li id="timer"><a href="">00:15</a></li>
 <!-- <li><a href="badges.html">Components</a></li> -->
         </ul>
       </div>
     </nav>
   </div>
         
-
-<div class="background">
-  <div class="questions">
-    <h2>1 - How many colors are in a rainbow?</h2>
-    <form class="row" action="#">
-    <p>
-      <input class="s3" name="group1" type="radio" id="test1" />
-      <label for="test1"  >5</label>
-    </p>
-    <p>
-      <input class="s3" name="group1" type="radio" id="test2" />
-      <label for="test2">6</label>
-    </p>
-   <p>
-      <input class="s3" name="group1" type="radio" id="test3" />
-      <label for="test3" id="testThree">7</label>
-    </p>
-    <p>
-      <input class="s3" name="group1" type="radio" id="test4" />
-      <label for="test4">8</label>
-    </p>
-  </form>
-  </div>
-  
-  <hr>
-
-  <div class="questions">
-    <h2>2 - Which delicacy is loved by pigs, who dig for it around tree roots?</h2>
-    <form class="row" action="#">
-    <p>
-      <input class="s3" name="group1" type="radio" id="test5" />
-      <label for="test5">Moreles</label>
-    </p>
-    <p>
-      <input class="s3" name="group1" type="radio" id="test6" />
-      <label for="test6">Enoki</label>
-    </p>
-   <p>
-      <input class="s3" name="group1" type="radio" id="test7" />
-      <label for="test7">Porcini</label>
-    </p>
-       <p>
-      <input class="s3" name="group1" type="radio" id="test8" />
-      <label for="test8" id="testEight">Truffles</label>
-    </p>
-  </form>
-  </div>
-
-  <hr>
-
-  <div class="questions">
-    <h2>3 - How many strings does a cello have?</h2>
-    <form class="row" action="#">
-    <p>
-      <input class="s3" name="group1" type="radio" id="test9" />
-      <label for="test9">2</label>
-    </p>
-    <p>
-      <input class="s3" name="group1" type="radio" id="test10" />
-      <label for="test10">3</label>
-    </p>
-   <p>
-      <input class="s3" name="group1" type="radio" id="test11" />
-      <label for="test11">4</label>
-    </p>
-       <p>
-      <input class="s3" name="group1" type="radio" id="test12" />
-      <label for="test12">5</label>
-    </p>
-  </form>
-  </div>
-
-  <hr>
-  
-  <div class="questions">
-    <h2>4 - The Dewey Decimal system is used to categorise what?</h2>
-    <form class="row" action="#">
-    <p>
-      <input class="s3" name="group1" type="radio" id="test13" />
-      <label for="test13">Books</label>
-    </p>
-    <p>
-      <input class="s3" name="group1" type="radio" id="test14" />
-      <label for="test14">Newspapers</label>
-    </p>
-   <p>
-      <input class="s3" name="group1" type="radio" id="test15" />
-      <label for="test15">Magazines</label>
-    </p>
-       <p>
-      <input class="s3" name="group1" type="radio" id="test16" />
-      <label for="test16">Scrolls</label>
-    </p>
-  </form>
-  </div>
-
-  <hr>
-
-  <div class="questions">
-    <h2>5 - How many squares are on a chess board?</h2>
-    <form class="row" action="#">
-    <p>
-      <input class="s3" name="group1" type="radio" id="test17" />
-      <label for="test17">49</label>
-    </p>
-    <p>
-      <input class="s3" name="group1" type="radio" id="test18" />
-      <label for="test18">56</label>
-    </p>
-   <p>
-      <input class="s3" name="group1" type="radio" id="test19" />
-      <label for="test19">64</label>
-    </p>
-       <p>
-      <input class="s3" name="group1" type="radio" id="test820" />
-      <label for="test20">72</label>
-    </p>
-  </form>
-  </div>  
-
-<hr>
-
- 
+  <div class="background-landing">
+    <div class="jumbotron">
+        <h2 class="hero-text">Lets take a quiz!</h2>
+        <h4>You must complete all 5 questions in only 15 seconds!</h4>
+      </div>
     <div class="row">
-        <a href="results.html" class="waves-effect waves-light btn-large col s12">SUBMIT</a>
-    </div>
-  
+ <!--      <p class="col"></p> -->
+        <a href="questions.html" class="waves-effect waves-light btn-large col s12" id="startButton">Begin</a>
+<!--         <p class="col"></p>
+ -->    </div>
+  </div>
 
 
 
 
-</div>
-
-
-
-<footer class="page-footer">
+<footer class="page-footer-landing">
 
     
     <h6>&copy; 2017 Joshua Weber</h6>
@@ -188,13 +68,13 @@
 
 <!-- Javascript files -->
 
-<!--   <script type="text/javascript" onload="timer.start()"></script>
- -->
-  <script src="Assets/javascript/script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+<!--   <script src="Assets/javascript/script.js"></script>
+ -->    <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
     <!-- Compiled and minified JavaScript -->
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+
+
 </body>
 </html>
