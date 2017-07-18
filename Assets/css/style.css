@@ -1,10 +1,7 @@
 @font-face {
-    font-family: 'jeanlucwebbold';
-    src: url('jeanlucweb-bold-webfont.woff2') format('woff2'),
-         url('jeanlucweb-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+    font-family: 'JeanLucWeb-Bold';
+        src: url('jeanlucweb-bold.eot');
+        src: local('☺'), url("jeanlucweb-bold.woff") format("woff"), url("jeanlucweb-bold.otf") format("opentype"), url("jeanlucweb-bold#webfontup15foyj") format("svg");
 }
 
 
@@ -15,7 +12,9 @@ h2 {
     color: white;
     font-family: 'Roboto Mono', monospace;
     font-family: 'JeanLucWeb-Bold'; 
-/*  font-family: 'Athiti', sans-serif;
+
+/*    font-family: 'JeanLucWeb-Bold'; 
+*//*  font-family: 'Athiti', sans-serif;
 */  font-weight: bolder;
     margin-bottom: 40px;
     margin-top: 100px;
@@ -74,6 +73,10 @@ p {
     text-align: center;
 }
 
+.hero-results-text {
+    text-align: center;
+    margin-top: 30px;
+}
 
 
 .qresults {
@@ -126,15 +129,17 @@ nav {
 nav .brand-logo {
     position: fixed;
     display: inline-block;
-    font-size: 2.1rem;
+    font-size: 24px;
     padding: 0;
     white-space: nowrap;
     left: 30px;
     color: white;
+    font-weight: 100;
 }
 
 .brand-logo:hover {
     color: #cecece;
+    font-weight: 300;
 }
 
 /*nav ul a*/ #timer {
@@ -152,7 +157,7 @@ html {
 }
 
 .btn-large{
- /* margin: 10px 170px; */
+  margin: 0px 50px; 
     background-color: #FDDA25;
     color: black;
 /*  left: 41%; */
@@ -165,12 +170,12 @@ html {
 	font-weight: bold;*/
 }
 
-.row .col.s2 {
-    width: 16.6666666667%;
-    margin-left: auto;
-    left: none;
-    right: none;
-    }
+.btn-flat {
+    color: white;
+    text-align: center;
+}
+
+
 
 
 .row .col.s12 {
@@ -179,6 +184,20 @@ html {
     left: 40%;
     right: 40%;
 } 
+
+.row .col.s6 {
+    width: 30%;
+    margin-left: auto;
+     left: 20%; 
+    /* right: auto; */
+}
+
+.row .col.s2 {
+    width: 16.6666666667%;
+    margin-left: auto;
+    left: none;
+    right: none;
+    }
 
 .page-footer {
 	/*padding: 20px 0px;*/
