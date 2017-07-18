@@ -1,0 +1,222 @@
+h2 {
+    font-size: 90px;
+    font-size: 90px;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'JeanLucWeb-Bold'; 
+/*  font-family: 'Athiti', sans-serif;
+*/  font-weight: bolder;
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+
+h6 {
+    float: right;
+    bottom: -2px;
+    clear: both;
+    position: relative;
+    right: 10px;
+}
+
+h4 {
+	font-size: 2.28rem;
+    line-height: 110%;
+    margin: 1.14rem 0 .912rem 0;
+    color: white;
+    text-align: center;
+}
+
+h5{
+/*  text-align: left;
+*/  color: white;
+    float: none; 
+    bottom: none; 
+    clear: none; 
+    position: none; 
+    right: 0px; 
+    padding: 10px;
+    font-size: 18px;
+    margin: 0px
+    line-height: 160%;;
+
+}
+
+.jumbotron {
+    margin: 0px 20%;
+/*	height: 100vh;*/
+}
+
+.text-white {
+	font-size: 90px;
+	color: white
+}
+
+.hero-text {
+
+	    text-align: center;
+}
+
+p {
+	float: left;
+	margin: 10px 30px;
+}
+
+.qresults {
+
+    color: white;
+    padding: 10px;
+    background-color: #242f35;
+}
+
+/*p:last-child {
+	float: left;
+	margin: 10px 80px;
+	display: block;
+}*/
+
+label:hover {
+	color: #d3d3d4;
+}
+
+.questions {
+/*	margin-top: 110px;
+*/}
+
+hr {
+    border-color: rgba(109, 109, 109, 0.42);
+    clear: both;
+    /* margin-top: 120px; */
+    margin: 62px 13px;
+}
+
+[type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:before, [type="radio"].with-gap:checked+label:after {
+    border: 2px solid #FDDA25;
+
+    }
+
+[type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:after {
+		background-color: #FDDA25;
+	}
+
+.background {
+	background-color: #28353D;
+	margin: 0px;
+	padding: 30px 30px 100px 30px;
+}
+
+.background-landing {
+    background-color: #28353D;
+    /* margin: 0px; */
+    padding: 30px 30px 100px 30px;
+    height: 100vh;
+}
+
+nav {
+	background-color: #212e35 ;
+}
+
+nav .brand-logo {
+    position: fixed;
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+    white-space: nowrap;
+    left: 30px;
+    color: white;
+}
+
+.brand-logo:hover {
+    color: #cecece;
+}
+
+/*nav ul a*/ #timer {
+    transition: background-color .3s;
+    font-size: 24px;
+    display: block;
+    padding: 0 15px;
+    cursor: pointer;
+    color: #FF646F;
+    font-weight: 900;
+}
+
+html {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.btn-large{
+    /* margin: 10px 170px; */
+    background-color: #FDDA25;
+    color: black;
+    /* left: 41%; */
+/*    font-weight: thin;*/
+}
+
+.btn-large:hover {
+    background-color: #FFEC86;
+/*	color: white;
+	font-weight: bold;*/
+}
+
+.row .col.s2 {
+    width: 16.6666666667%;
+    margin-left: auto;
+    left: none;
+    right: none;
+    }
+
+
+.row .col.s12 {
+    width: 20%;
+    margin-left: auto;
+    left: 40%;
+    right: 40%;
+} 
+
+.page-footer {
+	/*padding: 20px 0px;*/
+	background-color: #212e35;
+	
+    border-top: 0px solid #f5f5f5;
+    height: 40px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+/*    background-color: transparent;
+*/    text-align: center;
+
+}
+
+.page-footer-landing {
+	/*padding: 20px 0px;*/
+	background-color: #212e35;
+	
+    border-top: 0px solid #f5f5f5;
+    height: 40px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+/*    background-color: transparent;
+*/    text-align: center;
+
+}
+
+
+
+nav, .brand-logo {
+
+}
+/*
+form {
+	margin: 10px 50%;
+}*/
+
+/*	#test1, #test2, #test3, #test4 {
+				background-color: #000;
+				    border: 2px solid red;
+
+
+	}*/
