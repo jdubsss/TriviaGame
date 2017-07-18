@@ -10,16 +10,8 @@ h2 {
     margin-top: 100px;
 }
 
-h6 {
-    float: right;
-    bottom: -2px;
-    clear: both;
-    position: relative;
-    right: 10px;
-}
-
 h4 {
-	font-size: 2.28rem;
+    font-size: 2.28rem;
     line-height: 110%;
     margin: 1.14rem 0 .912rem 0;
     color: white;
@@ -38,8 +30,24 @@ h5{
     font-size: 18px;
     margin: 0px
     line-height: 160%;;
-
 }
+
+h6 {
+    float: right;
+    bottom: -2px;
+    clear: both;
+    position: relative;
+    right: 10px;
+    color: #777;
+}
+
+
+p {
+    float: left;
+    margin: 10px 30px;
+}
+
+
 
 .jumbotron {
     margin: 0px 20%;
@@ -52,40 +60,29 @@ h5{
 }
 
 .hero-text {
-
-	    text-align: center;
+    text-align: center;
 }
 
-p {
-	float: left;
-	margin: 10px 30px;
-}
+
 
 .qresults {
-
     color: white;
     padding: 10px;
     background-color: #242f35;
 }
 
-/*p:last-child {
-	float: left;
-	margin: 10px 80px;
-	display: block;
-}*/
 
 label:hover {
 	color: #d3d3d4;
 }
 
 .questions {
-/*	margin-top: 110px;
-*/}
+}
 
 hr {
     border-color: rgba(109, 109, 109, 0.42);
     clear: both;
-    /* margin-top: 120px; */
+ /* margin-top: 120px; */
     margin: 62px 13px;
 }
 
@@ -95,7 +92,7 @@ hr {
     }
 
 [type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:after {
-		background-color: #FDDA25;
+	background-color: #FDDA25;
 	}
 
 .background {
@@ -106,7 +103,7 @@ hr {
 
 .background-landing {
     background-color: #28353D;
-    /* margin: 0px; */
+ /* margin: 0px; */
     padding: 30px 30px 100px 30px;
     height: 100vh;
 }
@@ -144,11 +141,11 @@ html {
 }
 
 .btn-large{
-    /* margin: 10px 170px; */
+ /* margin: 10px 170px; */
     background-color: #FDDA25;
     color: black;
-    /* left: 41%; */
-/*    font-weight: thin;*/
+/*  left: 41%; */
+/*  font-weight: thin;*/
 }
 
 .btn-large:hover {
@@ -175,7 +172,6 @@ html {
 .page-footer {
 	/*padding: 20px 0px;*/
 	background-color: #212e35;
-	
     border-top: 0px solid #f5f5f5;
     height: 40px;
     position: relative;
@@ -183,15 +179,14 @@ html {
     bottom: 0;
     left: 0;
     padding: 5px;
-/*    background-color: transparent;
-*/    text-align: center;
+/*  background-color: transparent;
+*/  text-align: center;
 
 }
 
 .page-footer-landing {
-	/*padding: 20px 0px;*/
+  /*padding: 20px 0px;*/
 	background-color: #212e35;
-	
     border-top: 0px solid #f5f5f5;
     height: 40px;
     position: fixed;
@@ -199,8 +194,8 @@ html {
     bottom: 0;
     left: 0;
     padding: 5px;
-/*    background-color: transparent;
-*/    text-align: center;
+/*  background-color: transparent;
+*/  text-align: center;
 
 }
 
@@ -209,14 +204,3 @@ html {
 nav, .brand-logo {
 
 }
-/*
-form {
-	margin: 10px 50%;
-}*/
-
-/*	#test1, #test2, #test3, #test4 {
-				background-color: #000;
-				    border: 2px solid red;
-
-
-	}*/
