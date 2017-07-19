@@ -9,10 +9,10 @@
 
 @font-face {
     font-family: 'JeanLucWeb-Bold';
-        src: url('Assets/css/jeanlucweb-bold.eot');
-        src: local('☺'), url("Assets/css/jeanlucweb-bold.woff") format("woff"), 
-        url("Assets/css/jeanlucweb-bold.otf") format("opentype"), 
-        url("Assets/css/jeanlucweb-bold#webfontup15foyj") format("svg");
+        src: url('jeanlucweb-bold.eot');
+        src: local('☺'), url("jeanlucweb-bold.woff") format("woff"), 
+        url("jeanlucweb-bold.otf") format("opentype"), 
+        url("jeanlucweb-bold#webfontup15foyj") format("svg");
 }
 
 
