@@ -100,8 +100,14 @@ p {
 }
 
 
+label {
+    color: white;
+    font-size: 18px;
+}
+
+
 label:hover {
-	color: #d3d3d4;
+	color: #d4d4d4;
 }
 
 .questions {
