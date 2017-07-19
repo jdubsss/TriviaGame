@@ -25,6 +25,71 @@ console.log(testQuestions);
 
 
 
+/*var questions = [
+  {
+    questionText: 'What city were you born in?',
+    answers: [
+    {
+      isCorrect: true,
+      text: 'SLC'
+    },
+    {
+      isCorrect: false,
+      text: 'Denver'
+    },
+    {
+      isCorrect: false,
+      text: 'HNL'
+    },
+    {
+      isCorrect: false,
+      text: 'NYC'
+    }
+    ]
+  },
+    {
+    questionText: 'What city were you born in?',
+    answers: [
+    {
+      isCorrect: true,
+      text: 'SLC'
+    },
+    {
+      isCorrect: false,
+      text: 'Denver'
+    },
+    {
+      isCorrect: false,
+      text: 'HNL'
+    },
+    {
+      isCorrect: false,
+      text: 'NYC'
+    }
+    ]
+  },
+
+  var questionContainer = $('#questionsContainer');
+
+
+  questions.forEach(function(currentQuestion, index) {
+    var questionText = $('<div />');
+    questionText.text(currentQuestion.questionText);
+
+    var answerList = $('<ul />');
+
+    currentQuestion.answers.forEach(function (currentAnswer, answerIndex) {
+      var curAnswerElement = $('<li />');
+      curAnswerElement.text(currentAnswer.text);
+      answerList.append(curAnswerElement)
+    });
+
+    var questionWapper = $('<div />');
+    questionWapper.append(questionText)
+    questionContainer.appendChild(question);
+  })
+*/
+
 
 
 // ------------------------ list of functions ------------------------
