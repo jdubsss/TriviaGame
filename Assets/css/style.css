@@ -1,10 +1,18 @@
-@font-face{ 
+/*@font-face{ 
     font-family: JeanLucWeb-Bold;
     src: url('Assets/css/jeanLucWeb-Bold.eot');
     src: url('Assets/css/jeanLucWeb-Bold.eot?#iefix') format('embedded-opentype'),
          url('Assets/css/jeanLucWeb-Bold.woff') format('woff'),
          url('Assets/css/jeanLucWeb-Bold.ttf') format('truetype'),
          url('Assets/css/jeanLucWeb-Bold.svg#webfont') format('svg');
+}*/
+
+@font-face {
+    font-family: 'JeanLucWeb-Bold';
+        src: url('Assets/css/jeanlucweb-bold.eot');
+        src: local('☺'), url("Assets/css/jeanlucweb-bold.woff") format("woff"), 
+        url("Assets/css/jeanlucweb-bold.otf") format("opentype"), 
+        url("Assets/css/jeanlucweb-bold#webfontup15foyj") format("svg");
 }
 
 
@@ -14,7 +22,7 @@ h2 {
     font-size: 90px;
     color: white;
     font-family: 'Roboto Mono', monospace;
-    font-family: JeanLucWeb-Bold; 
+    font-family: 'JeanLucWeb-Bold'; 
 /*    font-family: 'Rubik Mono One', sans-serif;
 */
 /*    font-family: 'JeanLucWeb-Bold'; 
